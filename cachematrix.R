@@ -1,5 +1,5 @@
 ## creates a matrix that can be cached and inverted, returns a list to set matrix,
-## get matrix, set inverse, and get inverse
+## get matrix, set inverse, and get inverse 
 makeCacheMatrix <- function(x = matrix()) {
         
         # set inverse matrix as NULL

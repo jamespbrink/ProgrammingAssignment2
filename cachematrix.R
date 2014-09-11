@@ -10,7 +10,6 @@ makeCacheMatrix <- function(x = matrix()) {
                 x <<- y
                 inv <<- NULL
         }
-        
         # function to retrieve matrix
         get <- function() x
         
@@ -23,6 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
         # returns list of functions
         list(set = set, get = get, setinverse = setinverse, getinverse = getinverse)
 }
+
 
 
 # function that returns the inverse matrix of x, if this matrix has been stored in cache
